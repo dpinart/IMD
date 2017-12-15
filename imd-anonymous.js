@@ -87,7 +87,6 @@
       return new URL(script.getAttribute('src'), doc.baseURI).toString();
     }
     return ANONYMOUS_MODULE;
-    return doc.baseURI;
   }
 
   /**
